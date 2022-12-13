@@ -1,0 +1,37 @@
+@font-face {
+    font-family: '1982';
+    src: url('../1982.ttf');
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url('../pixel.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url('../images/warnet.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: '1982', 'Arial', 'sans-serif';
+}
+.title {
+    position: absolute;
+    top: 0;
+    margin-top: 40px;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
