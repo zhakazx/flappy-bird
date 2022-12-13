@@ -18,9 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
-    background-image: url('../images/warnet.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #fca5a5;
     font-family: '1982', 'Arial', 'sans-serif';
 }
 .title {
